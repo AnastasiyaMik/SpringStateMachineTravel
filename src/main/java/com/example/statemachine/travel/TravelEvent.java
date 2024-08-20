@@ -1,0 +1,8 @@
+package com.example.statemachine.travel;
+
+public enum TravelEvent {
+  DESTINATION_CHOSEN, DOCUMENTS_PREPARED,
+  TRANSPORT_BOOKED, ACCOMMODATION_BOOKED,
+  READY_FOR_TRIP, RETURN_HOME,
+  FINISH_TRAVEL, SEND_POST
+}
